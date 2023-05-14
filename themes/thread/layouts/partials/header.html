@@ -1,0 +1,28 @@
+<header>
+    <nav class="font-sans flex flex-col sm:flex-row shadow-sm" role="navigation">
+        <div class="flex flex-col sm:flex-row sm:inline-flex pl-5 container md:relative left-20 right-20">
+            <div class="flex flex-row text-red-900">
+                <a href="/" title="home" class="flex flex-row justify-between">
+                    <span class="text-xl">
+                    <h1 class="flex flex-row">
+                        <img src="/favicon-32x32.png"/> {{ .Site.Title }}
+                    </h1></span>
+                </a>
+                {{ range .Site.Menus.social }}
+                <a href="{{ .URL }}" title="{{ .Name }}"><span
+                        class="">{{ .Pre }}</span></a>
+                {{ end }}
+                <!-- </div>
+                     <div class="flex flex-row" id="mobileMenu"> -->
+                    {{ range .Site.Menus.main }}
+                    <div class="text-yellow-700 pl-4 pt-1 space-x-2">
+                        <a href="{{ .URL }}" class="">{{ .Name }}</a>
+                    </div>
+                    {{ end }}
+                {{ with .OutputFormats.Get "rss" -}}
+                    {{ printf `<a link rel="%s" type="%s" href="%s" title="%s"> <p class="text-yellow-700 pl-5 pt-2 fa fa-rss"></p></a>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+                {{ end -}}
+            </div>
+        </div>
+    </nav>
+</header>

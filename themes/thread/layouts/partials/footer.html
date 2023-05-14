@@ -1,0 +1,13 @@
+<footer>
+    <div class="p-1 rounded-md shadow-sm" >
+        <div class="text-xs text-right">
+            2022. {{ .Site.Title }}.
+        </div>
+        {{ range .Site.Menus.footer }}
+        <div class="">
+            <a href="{{ .URL }}" class="">{{ .Name }}</a>
+        </div>
+        {{ end }}
+        <div>
+    </div>
+</footer>
