@@ -1,0 +1,29 @@
+#+title: December 11, 2021
+#+AUTHOR: En logger
+#+Date: 2022-12-11
+#+HUGO_SECTION: archives/2022
+#+hugo_auto_set_lastmod: t
+
+It's been a while since I last wrote. Now I'm just jotting down some random thoughts in this journal entry, which I'm turning into a blog post. The point is, it's okay to have lows in life. It's not necessary to only share the highs. I've been feeling pretty alone lately, without any drive or motivation. It feels like all hope is lost. And it's not because of any social issues or isolation. I didn't really know why I was feeling that way, but after some contemplation and digging into the details, I've come up with some interesting answers.
+
+I finally got an answer to a question that's been my driving factor. Now I'm stuck in this eternal state of "now what?" and "what am I going to do next?" To give some context, way back when I was just starting my master's degree, I had this crazy idea while I was walking home from college. I thought, "What if I had a model that could generate animations from text descriptions!" I turned that idea into a research question and started brainstorming ways to make it happen. The first idea was to create a model that could jointly represent text and images. The second was to use that model to generate animations from images. But after years of inaction, I learned that ideas don't matter. Only execution matters.
+
+While I was thinking of ideas, people were already executing similar ones.
+- 2018: I thought of the idea.
+- 2019: I turned it into a research problem while writing my SoP.
+- 2020: OpenAI comes out with GPT-3.
+- 2021: DALL-E.
+- 2022: DALL-E 2, Stable diffusion. The initial seeds are planted!
+No matter how novel an idea is, there's always someone who's thought of it and is already acting on it. So ideas don't matter, they're just abstract concepts that have no relevance in the real world.
+
+Now that the problem is solved to some degree, the original idea that I had has lost its appeal. Even though I'm still interested in the field and have done some minor implementations, I've become a victim of my own inaction. As a result, the drive that I initially had is gone. My first question has been answered for me. There will be improvements in the future, but it's a clear indication that I need to move on from this point and find new inspirations. It's important to keep pushing forward and exploring new ideas, even when it feels like we've reached a dead end. There's always something new to discover.
+
+Another aspect of my personality is my personal interest in art, specifically painting and representing ideas in a visual context. But the text-to-image model has killed my motivation to improve and develop my hobby as a skill. The amount of time I'm willing to invest in it probably won't be enough to produce the kind of quality I want. In this case, I'm underestimating myself, but the internal drive just isn't there anymore. I'll give it another try, but I don't have high hopes.
+
+Coming back to the original idea that sparked a question and gave me a sense of purpose, and having it solved this early has been a setback in my thinking. I can't really talk to anyone about it, so I'm just going to write out my thoughts in a few paragraphs on some random place on the internet.
+
+These days, I find myself without much drive. As a result, I've begun to see myself as worthless in achieving the things I want to do. I'm unable to bring the quality of my work up to the level I envision in my head. Everything I produce now is below average in every way. This realization, coupled with my lack of inspiration, has left me barely getting by. I don't know what's going to happen after I graduate or what I'll do next. It feels like my career is over before it even began.
+
+But that doesn't mean all hope is lost. I still have plenty of ideas and thoughts that drive me. These days, I'm focused on animation and real-time graphics-related content. Unlike before, I'm now able to bring my ideas to fruition. I'm confident in my engineering skills and my ability to avoid "data-driven" approaches. Simulation and physically-based animation will require me to think about things from the first principles. By bending the rules, I can achieve my own unique way of representing ideas and thoughts in visual form. I'm excited to take this route, but at the same time, I'm daunted by the number of steps I'll have to take. Everyone has to start somewhere, though. Let this new year be the start of a new beginning in a new world.
+
+If opportunities arise that would allow me to use "data-driven" methods, I won't hesitate to take them. But in the meantime, I'm going to focus on simulation and animation!

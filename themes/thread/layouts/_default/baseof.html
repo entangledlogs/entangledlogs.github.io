@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body class="bg-yellow-50 flex flex-col h-screen">
+        {{- partial "header.html" . -}}
+        <div class="overflow-auto mb-auto flex flex-row md:relative left-20 right-20">
+        <main class="pl-2 pr-2 pt-2 sm:pl-10 sm: pr-10 shadow-l rounded-md lg:w-1/2" id="Content">
+            {{- block "main" . }}{{- end }}
+        </main>
+        <main class="max-h-content sticky top-0 overflow-auto right-0 hidden p-2 pl-10 lg:flex lg:flex-row lg:w-1/2" style="height: max-content" id="Extra">
+            {{- block "extra" . }}{{- end }}
+        </main>
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+<script>
+
+    const navout = document.getElementById("TableOfContents");
+    if (navout != null) {
+
+        navout.querySelectorAll("nav ul li").forEach(entry => {
+            entry.classList.add("pl-5")
+        });
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    const id = entry.target.getAttribute('id');
+                    const nav = document.getElementById("TableOfContents");
+                    const queries = nav.querySelector(`nav ul li a[href="#${id}"]`);
+                    if ((entry.intersectionRatio > 0) && (queries != null)) {
+                        queries.classList.add('text-gray-700');
+                    }
+                });
+            });
+
+            // Track all sections that have an `id` applied
+            document.querySelectorAll('[id]').forEach((section) => {
+                observer.observe(section);
+            });
+
+        });
+    }
+</script>
+</html>

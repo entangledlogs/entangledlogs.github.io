@@ -1,0 +1,8 @@
+#+TITLE: Getting Started
+#+AUTHOR: Entangled Logs
+#+DATE: 2021-08-05
+#+HUGO_SECTION: 2021
+This is just the start of something new. Even my writing is terrible.
+*** Progress so far.
+This is barely getting started section. Just setup the basic version of web page to get started. I am expecting the site to evolve as I keep updating things.
+However, this should be bare minimum and readable everywhere.

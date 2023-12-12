@@ -1,0 +1,14 @@
+<footer>
+    <div class="p-1 rounded-md shadow-sm" >
+        <div class="text-xs text-right">
+            {{ now.Year }}. {{ .Site.Title }}.
+        </div>
+        {{ range .Site.Menus.footer }}
+        <div class="">
+            <a href="{{ .URL }}" class="">{{ .Name }}</a>
+        </div>
+        {{ end }}
+        <div>
+    </div>
+</footer>
+{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}

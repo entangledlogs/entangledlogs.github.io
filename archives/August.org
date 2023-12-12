@@ -1,0 +1,15 @@
+#+title: August
+#+AUTHOR: En logger
+#+Date: 2022-09-13
+#+HUGO_SECTION: archives/2022
+#+hugo_auto_set_lastmod: t
+
+A blog post out of nowhere. This is a new thing that even I did not expect. There arises a question on why I am even writing it. Since I am writing it on a new keyboard with my eyes closed, I want the content to come raw and unfiltered. Everything that follows is solely based on inner reflections.
+
+This is me plunging into my thoughts and contemplating what to do with my current status of living and way of life. I have failed to prioritize different projects, which I had been meaning to do. As a result, I ended up with nothing viable to do other than minor work-related activities. I also moved out of the old place. An upside to my mood. Now that I am in a better position for myself, I have decided that I want to invest in myself.
+
+By investing, I  mean exploring and enjoying activities other than work. Going to the river more often, using a sketchbook to ideate and draw, working out maths on paper in a fun way. I realized it is not about the race to the top or a competition. It is about enjoying the available time with full potential. Therefore, I hope to appreciate that undertaking meaningless actions is fine for remaining sane.
+
+With that out of the way, I also had quite a painful time in August. It was too monotonous. It felt like I squandered an entire month into a void. But on the positive side, it was like a pause for me. I managed to learn a new keyboard as well as a new layout. It is a split keyboard which feels pretty pleasing to type on. Further, I re-implemented the code from my internship at NVIDIA. I will be releasing the code soon.
+
+Since the start of this month, I have been working actively on my thesis. This is positive because I can finally start on something. Everything else has been great. This should be enough. There are still some deep personal feelings, which I feel are irrelevant to share. For my own reminders, it is about my thoughts and meaning to the interpersonal part of human life.

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="container">
+    <p class="text-green-800 text-3xl">{{ .Title }}</p>
+    <!-- {{ .Content }} -->
+    {{ range .Pages.GroupByDate "2006" }}
+
+    <p class="text-3xl text-yellow-700"> {{ .Key }} </p>
+
+    <table class="table-auto">
+        {{ range .Pages.ByPublishDate.Reverse }}
+        <tr>
+            <!-- <th class="fa fa-calendar text-gray-500"> -->
+            <td class = "pr-10">
+                <time class="text-black font-light italic pl-1 pr-1"> {{ .Date.Format "Jan 2" }}</time>
+            </td>
+            <td>
+                <a class="font-sans text-xl font-heavy text-blue-800" href="{{ .Permalink }}">{{ .Title }}</a>
+            </td>
+        </tr>
+        {{ end }}
+    </table>
+    {{ end }}
+</div>
+{{ end }}

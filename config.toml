@@ -1,0 +1,45 @@
+baseURL = "https://entangledlogs.com"
+languageCode = "en-us"
+title = "Entangled Logs"
+theme="thread"
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+
+[params]
+description = "A thread that links code, graphics and learning."
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Archives"
+  url = "/archives"
+
+
+[[menu.main]]
+  name = "Logs"
+  url = "/logs"
+
+[permalinks]
+  "2021" = "/archives/:year/:month/:title/"
+
+[author]
+name = 'En Logger'
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = 'solarized-light'
+tabWidth = 4
+
+[markup.tableOfContents]
+endLevel = 2
+ordered = false
+startLevel = 2

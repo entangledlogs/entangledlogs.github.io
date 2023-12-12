@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container max-800px">
+    <div class="prose">
+        {{ .Content }}
+        <h2>Latest Posts</h2>
+        <ul class="texts">
+            {{ range first 3 (where site.RegularPages.ByDate.Reverse "Type" "in" site.Params.mainSections) }}
+                <li class="text-title">
+                    <a class="text-blue-600" href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
