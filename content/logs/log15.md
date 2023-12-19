@@ -2,7 +2,7 @@
 title = "Log 15"
 author = ["En logger"]
 date = 2023-12-19T00:00:00+01:00
-lastmod = 2023-12-19T23:54:37+01:00
+lastmod = 2023-12-19T23:56:29+01:00
 draft = false
 +++
 
@@ -26,7 +26,7 @@ mov eax, dword ptr [0]
 ret
 ```
 
-Without the volatile, it would be optimized away. But when the code is run, it will result in segfault.
+Without the volatile, it would be optimized away. When the code is run, it will result in segfault.
 
 Another thing I learned is,
 
